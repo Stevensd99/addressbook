@@ -10,9 +10,14 @@ public class AddressBook {
     public AddressBook() {
 		friends = new Contact[10];
 		numfriends = 0;
-    public void addcontact(String name){
+    public void addContact(String name){
 	    numfriends++;
-	    Contact[numfriends] = name;
+	    friends[numfriends] = name;
     	}
+    public void printContacts(){
+	    for(Contact cc: AdressBook){
+		    System.out.println(friends[cc]);
+	    }
+   	 }
     }
 	
