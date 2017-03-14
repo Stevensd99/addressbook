@@ -10,4 +10,9 @@ public class AddressBook {
     public AddressBook() {
 		friends = new Contact[10];
 		numfriends = 0;
+    public void addcontact(String name){
+	    numfriends++;
+	    Contact[numfriends] = name;
+    	}
     }
+	
